@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CommerciauxWinforms/1.0.0": {
+        "dependencies": {
+          "CslCommerciauxV2": "1.0.0",
+          "libCommerciauxV2": "1.0.0"
+        },
+        "runtime": {
+          "CommerciauxWinforms.dll": {}
+        }
+      },
+      "CslCommerciauxV2/1.0.0": {
+        "dependencies": {
+          "libCommerciauxV2": "1.0.0"
+        },
+        "runtime": {
+          "CslCommerciauxV2.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "libCommerciauxV2/1.0.0": {
+        "runtime": {
+          "libCommerciauxV2.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommerciauxWinforms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CslCommerciauxV2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "libCommerciauxV2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

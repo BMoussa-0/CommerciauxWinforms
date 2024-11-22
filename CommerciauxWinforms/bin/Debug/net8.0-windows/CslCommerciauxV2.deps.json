@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CslCommerciauxV2/1.0.0": {
+        "dependencies": {
+          "libCommerciauxV2": "1.0.0"
+        },
+        "runtime": {
+          "CslCommerciauxV2.dll": {}
+        }
+      },
+      "libCommerciauxV2/1.0.0": {
+        "runtime": {
+          "libCommerciauxV2.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CslCommerciauxV2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "libCommerciauxV2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
