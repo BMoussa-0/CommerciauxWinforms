@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CommerciauxWinforms
-build_property.ProjectDir = C:\Users\boudr\Downloads\libCommerciauxV2\libCommerciauxV2\CommerciauxWinforms\
+build_property.ProjectDir = C:\Users\boudr\Desktop\informatique\missions_c#\libCommerciauxV2\libCommerciauxV2\CommerciauxWinforms\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

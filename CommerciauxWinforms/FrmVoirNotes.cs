@@ -47,11 +47,15 @@ namespace CommerciauxWinforms
 
         private void FrmVoirNotes_Load(object sender, EventArgs e)
         {
-            string s;
+            if (leService != null && leService.LesCommerciaux != null)
             foreach (Commercial c in leService.LesCommerciaux)
             {
-                s = $"{c.Nom} {c.Prenom}";
+                string s = $"{c.Nom} {c.Prenom}";
                 cmbCommerciaux.Items.Add(s);
+            }
+            else
+            {
+                 MessageBox.Show("Aucune note trouvée");
             }
         }
     }
