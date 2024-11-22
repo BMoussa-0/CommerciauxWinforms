@@ -1,0 +1,23 @@
+{
+  "LesCommerciaux": [
+    {
+      "Nom": "Dupond",
+      "Prenom": "Jean",
+      "PuissanceVoiture": 7,
+      "Categorie": "B"
+    }
+  ],
+  "MesNotes": [
+    {
+      "MontantARembourser": 20,
+      "LeCommercial": {
+        "Nom": "Dupond",
+        "Prenom": "Jean",
+        "PuissanceVoiture": 7,
+        "Categorie": "B"
+      },
+      "DateNoteFrais": "2013-11-15T00:00:00",
+      "EstRembourse": true
+    }
+  ]
+}
